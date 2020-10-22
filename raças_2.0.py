@@ -7,12 +7,12 @@ def inputer(message):
 
 nivel = vl.level()
 
-raw_str = 1#is_int(inputer("Força: "))
-raw_dex = 1#is_int(inputer("Destreza: "))
-raw_con = 1#is_int(inputer("Constituição: "))
-raw_int = 1#is_int(inputer("Inteligência: "))
-raw_wis = 1#is_int(inputer("Sabedoria: "))
-raw_cha = 1#is_int(inputer("Carisma: "))
+raw_str = is_int(inputer("Força: "))
+raw_dex = is_int(inputer("Destreza: "))
+raw_con = is_int(inputer("Constituição: "))
+raw_int = is_int(inputer("Inteligência: "))
+raw_wis = is_int(inputer("Sabedoria: "))
+raw_cha = is_int(inputer("Carisma: "))
 
 
 def table_skills(strength, dexterity, intelligence, wisdom, charisma):
